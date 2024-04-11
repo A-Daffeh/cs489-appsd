@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Lab6
+  datasource:
+    url: jdbc:mysql://localhost:3306/cs489-lab-6
+    username: root
+    password: '@Adoustar4'
+  jpa:
+    properties:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    show-sql: true
